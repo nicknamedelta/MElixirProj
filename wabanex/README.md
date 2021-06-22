@@ -1,4 +1,6 @@
-# Wabanex
+# wabanex
+
+(⌒ ▽ ⌒) - "Water + Banana + Elixir = WaBanEx"
 
 To start your Phoenix server:
 
@@ -17,3 +19,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Environment settings
+
+[Notion - Configurações do Ambiente](https://www.notion.so/Mission-Elixir-e2036a66a5784f0e94e564c6dd19fc10)

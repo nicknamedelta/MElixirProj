@@ -23,11 +23,10 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 ## Phoenix
 
-new project using Phoenix: `mix phx.new phx_gen`
+New project using Phoenix: `mix phx.new phx_gen`
 
-generate a CRUD using Phoenix: `mix phx.gen.html ContextName EntityName table_name att_name:att_type att2_name:att2_type`
+Generate CRUD: `mix phx.gen.html ContextName EntityName table_name att_name:att_type att2_name:att2_type`
 
-generate a JSON CRUD using Phoenix:`mix phx.gen.json ContextName EntityName table_name att_name:att_type att2_name:att2_type`
+Generate CRUD/json:`mix phx.gen.json ContextName EntityName table_name att_name:att_type att2_name:att2_type`
 
-show all routes: `mix phx.routes`
-
+List all routes: `mix phx.routes`

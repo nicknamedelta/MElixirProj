@@ -22,15 +22,11 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 ## What was used ?
 
-[Credo - LTS version](https://github.com/rrrene/credo)
-
-[Bamboo - LTS version](https://github.com/thoughtbot/bamboo)
-
-[Whimsical - Mental Maps](https://whimsical.com/)
-
-[ExCoverAll - Test Coverage](https://github.com/parroty/excoveralls)
-
-[Ex_Machina - Test Params Factory](https://github.com/thoughtbot/ex_machina)
+* [Credo - LTS version](https://github.com/rrrene/credo)
+* [Bamboo - LTS version](https://github.com/thoughtbot/bamboo)
+* [Whimsical - Mental Maps](https://whimsical.com/)
+* [ExCoverAll - Test Coverage](https://github.com/parroty/excoveralls)
+* [Ex_Machina - Test Params Factory](https://github.com/thoughtbot/ex_machina)
 
 ## Environment settings
 
@@ -71,7 +67,7 @@ Show all routes in application: `mix phx.routes`
 
 Format all project's code: `mix format`
 
-### Tests
+## Tests
 
 Test your application: `mix test`
 
@@ -81,7 +77,7 @@ Test your application using ExCoverAll(html): `mix coveralls.html`
 
 Get the percentage of test coverage in your app: `mix test --cover`
 
-### Ecto
+## Ecto
 
 Create new migration: `mix ecto.gen.migration create_name_table` and `mix ecto.migrate`
 

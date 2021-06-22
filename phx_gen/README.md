@@ -1,6 +1,6 @@
 # PhxGen  - phx-generators
 
-(´ U `) - "Generator?"
+(º U º) - "Generator?"
 
 To start your Phoenix server:
 

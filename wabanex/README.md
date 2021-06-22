@@ -30,4 +30,4 @@ Generate new migration: `mix ecto.gen.migration <method>_<table_name>_table`
 
 Execute migrations: `mix ecto.migrate`
 
-Reset  and re-run migrations: `mix ecto.reset`
+Reset and re-run migrations: `mix ecto.reset`

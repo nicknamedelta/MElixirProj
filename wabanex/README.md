@@ -23,3 +23,11 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 ## Environment settings
 
 [Notion - Configurações do Ambiente](https://www.notion.so/Mission-Elixir-e2036a66a5784f0e94e564c6dd19fc10)
+
+## Ecto
+
+Generate new migration: `mix ecto.gen.migration <method>_<table_name>_table`
+
+Execute migrations: `mix ecto.migrate`
+
+Reset  and re-run migrations: `mix ecto.reset`

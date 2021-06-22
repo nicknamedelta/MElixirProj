@@ -31,6 +31,6 @@ Generate CRUD/json:`mix phx.gen.json ContextName EntityName table_name att_name:
 
 List all routes: `mix phx.routes`
 
-Based On:
+**Based On**:
 
 - [Rocketseat/CRUD - Phoenix Generator](https://youtu.be/JwOE5gLlwZc)

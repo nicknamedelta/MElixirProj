@@ -1,4 +1,4 @@
-# PhxGen  - phx-generators
+# PhxGen
 
 (º U º) - "Generator?"
 

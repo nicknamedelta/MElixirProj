@@ -1,6 +1,6 @@
-# wabanex
+# Wabanex - nlw6Te
 
-(⌒ ▽ ⌒) - "Water + Banana + Elixir = WaBanEx"
+(⌒ ▽ ⌒) - "**Wa**ter  + **Ban**ana + **E**li**X**ir = WaBanEx"
 
 To start your Phoenix server:
 

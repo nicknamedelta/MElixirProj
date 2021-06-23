@@ -56,7 +56,7 @@ mutation {
 
 ```elixir
 {
-  getUser(id: "<user_uuid4>"),
+  getUser(id: "<user_uuid4>")
   {
     name,
     email

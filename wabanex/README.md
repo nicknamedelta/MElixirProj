@@ -32,7 +32,7 @@ Execute migrations: `mix ecto.migrate`
 
 Reset and re-run migrations: `mix ecto.reset`
 
-## GraphQl
+## GraphQl/GraphiQl
 
 Localhost access: [http://localhost:4000/api/graphiql/](http://localhost:4000/api/graphiql/)
 

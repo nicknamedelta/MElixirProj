@@ -31,3 +31,35 @@ Generate new migration: `mix ecto.gen.migration <method>_<table_name>_table`
 Execute migrations: `mix ecto.migrate`
 
 Reset and re-run migrations: `mix ecto.reset`
+
+## GraphQl
+
+Localhost access: [http://localhost:4000/api/graphiql/](http://localhost:4000/api/graphiql/)
+
+**Creating a new user in GraphiQl:**
+
+```elixir
+mutation {
+  createUser(input: {
+    name: "<user_name>",
+    email: "user_email_w_@",
+    password: "<user_password>"
+  })
+  {
+    id, 
+    name
+  }
+}
+```
+
+**Get an user by id in GraphiQl:**
+
+```elixir
+{
+  getUser(id: "<user_uuid4>"),
+  {
+    name,
+    email
+  }
+}
+```

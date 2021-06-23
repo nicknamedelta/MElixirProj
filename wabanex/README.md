@@ -1,6 +1,6 @@
 # Wabanex - nlw6Te
 
-(⌒ ▽ ⌒) - "**Wa**ter  + **Ban**ana + **E**li**X**ir = WaBanEx"
+(⌒ ▽ ⌒) - "**Wa**ter + **Ban**ana + **E**li**X**ir = WaBanEx"
 
 To start your Phoenix server:
 

@@ -36,7 +36,7 @@ Reset and re-run migrations: `mix ecto.reset`
 
 Localhost access: [http://localhost:4000/api/graphiql/](http://localhost:4000/api/graphiql/)
 
-**Creating a new user in GraphiQl:**
+**Create a new user in GraphiQl:**
 
 ```elixir
 mutation {

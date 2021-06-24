@@ -63,3 +63,51 @@ mutation {
   }
 }
 ```
+
+**Create a training and his list of exercises in GraphiQl:**
+
+```elixir
+mutation {
+  createTraining(input: {
+    startDate: "<YYYY-MM-DD>",
+    endDate: "<YYYY-MM-DD>",
+    userId: "<user_uuid4>",
+    exercises: [
+      {
+        name: "<exercise_name>",
+        youtubeVideoUrl: "<youtube_video_url>",
+        repetitions: "<repetitions_description>",
+        protocolDescription: "<protocol_description>"
+      },
+      {
+        name: "<exercise2_name>",
+        youtubeVideoUrl: "<youtube_video_url>",
+        repetitions: "<repetitions_description>",
+        protocolDescription: "<protocol_description>"
+      }
+    ]
+  })
+  {
+    id,
+    exercises{
+      id,
+      name,
+      repetitions,
+      protocolDescription
+    }
+  }
+}
+```
+
+**Get an training without exercises list by id in GraphiQl:**
+
+```elixir
+{
+  getTraining(id: "<training_uuid4>")
+  {
+    id,
+    startDate,
+    endDate,
+  }
+}
+```

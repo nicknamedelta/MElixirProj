@@ -111,3 +111,25 @@ mutation {
   }
 }
 ```
+
+**Get an user and his actual training with exercises list by id in GraphiQl:**
+
+```elixir
+{
+  getUser(id: "<user_uuid4>")
+  {
+    id,
+    name,
+    email,
+    trainings{
+      id,
+      startDate,
+      endDate,
+      exercises{
+        name,
+        repetitions
+      }
+    }
+  }
+}
+```
